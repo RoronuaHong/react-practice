@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "react",
+        "stage-0",
+        ["env", {
+            "module": false,
+            "browser": ["last 2 versions", "ie >= 9"]
+        }]
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+		["transform-class-properties", { "spec": true }]
+    ]
+}

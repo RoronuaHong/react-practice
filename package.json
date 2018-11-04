@@ -1,0 +1,76 @@
+{
+  "name": "slimhong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.common.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "start": "node ./dist/server.js",
+    "dev": "rm -rf dist && webpack --mode development --config webpack.server.config.js && webpack --mode development --config webpack.dev.config.js",
+    "build": "rm -rf dist && webpack --mode production --config webpack.server.config.js && webpack --mode production --config webpack.prod.config.js"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(png|svg|jpg|gif)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoronuaHong/react-practice.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "slimhong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoronuaHong/react-practice/issues"
+  },
+  "homepage": "https://github.com/RoronuaHong/react-practice#readme",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-stage-0": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.8.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "express": "^4.16.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.4",
+    "normalize.css": "^8.0.0",
+    "opn": "^5.4.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "react-hot-loader": "^4.3.11",
+    "redux-saga": "^0.16.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-merge": "^4.1.4",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
