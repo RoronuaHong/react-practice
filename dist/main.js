@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "4a8dceafd485f96c851a";
+/******/ 	var hotCurrentHash = "11f7cf9ec4312bfdb44e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1010,7 +1010,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/_css-loade
 
 
 // module
-exports.push([module.i, "/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers.\n */\nbody {\n  margin: 0; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Remove the gray background on active links in IE 10.\n */\na {\n  background-color: transparent; }\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove the border on images inside links in IE 10.\n */\nimg {\n  border-style: none; }\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; }\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText; }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  vertical-align: baseline; }\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\ntextarea {\n  overflow: auto; }\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */ }\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/* Misc\n   ========================================================================== */\n/**\n * Add the correct display in IE 10+.\n */\ntemplate {\n  display: none; }\n\n/**\n * Add the correct display in IE 10.\n */\n[hidden] {\n  display: none; }\n\n#app {\n  height: 10em;\n  width: 10em;\n  background: lightblue;\n  overflow: hidden; }\n\n#modal-root {\n  position: relative;\n  z-index: 999; }\n\n#portal-box {\n  position: relative; }\n\n.modal {\n  background-color: rgba(0, 0, 0, 0.5);\n  position: absolute;\n  height: 100px;\n  width: 100px;\n  top: 10;\n  left: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center; }\n", ""]);
+exports.push([module.i, "/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers.\n */\nbody {\n  margin: 0; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Remove the gray background on active links in IE 10.\n */\na {\n  background-color: transparent; }\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove the border on images inside links in IE 10.\n */\nimg {\n  border-style: none; }\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; }\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText; }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  vertical-align: baseline; }\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\ntextarea {\n  overflow: auto; }\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */ }\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/* Misc\n   ========================================================================== */\n/**\n * Add the correct display in IE 10+.\n */\ntemplate {\n  display: none; }\n\n/**\n * Add the correct display in IE 10.\n */\n[hidden] {\n  display: none; }\n\n#modal-root {\n  position: relative;\n  z-index: 999; }\n\n#portal-box {\n  position: relative; }\n\n.modal-box {\n  position: absolute;\n  top: 100px;\n  left: 100px;\n  background: #f93; }\n\n.modal {\n  background-color: rgba(0, 0, 0, 0.5);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center; }\n", ""]);
 
 // exports
 
@@ -31729,6 +31729,537 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./src/containers/Decorator/Class/index.js":
+/*!*************************************************!*\
+  !*** ./src/containers/Decorator/Class/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/_react@16.6.0@react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+    var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * 类的修饰
+ */
+var MyTestableClass = function MyTestableClass() {
+    _classCallCheck(this, MyTestableClass);
+};
+
+var testable = function testable(target) {
+    console.log(target);
+    target.isTestable = true;
+};
+
+console.log(MyTestableClass.isTestable);
+
+var Dclass = function (_Component) {
+    _inherits(Dclass, _Component);
+
+    function Dclass() {
+        _classCallCheck(this, Dclass);
+
+        return _possibleConstructorReturn(this, (Dclass.__proto__ || Object.getPrototypeOf(Dclass)).apply(this, arguments));
+    }
+
+    _createClass(Dclass, [{
+        key: 'render',
+        value: function render() {
+            // console.log(MyTestableClass.isTestable)
+            return _react2.default.createElement(
+                'div',
+                null,
+                'A = testable(A) || A'
+            );
+        }
+    }, {
+        key: '__reactstandin__regenerateByEval',
+        // @ts-ignore
+        value: function __reactstandin__regenerateByEval(key, code) {
+            // @ts-ignore
+            this[key] = eval(code);
+        }
+    }]);
+
+    return Dclass;
+}(_react.Component);
+
+var _default = Dclass;
+exports.default = _default;
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").default;
+
+    var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(MyTestableClass, 'MyTestableClass', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/Decorator/Class/index.js');
+    reactHotLoader.register(testable, 'testable', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/Decorator/Class/index.js');
+    reactHotLoader.register(Dclass, 'Dclass', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/Decorator/Class/index.js');
+    reactHotLoader.register(_default, 'default', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/Decorator/Class/index.js');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/_webpack@4.23.1@webpack/buildin/module.js */ "./node_modules/_webpack@4.23.1@webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/containers/ForwardingRefs/BigPaint.js":
+/*!***************************************************!*\
+  !*** ./src/containers/ForwardingRefs/BigPaint.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/_react@16.6.0@react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+    var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Paint = function (_Component) {
+    _inherits(Paint, _Component);
+
+    function Paint() {
+        _classCallCheck(this, Paint);
+
+        return _possibleConstructorReturn(this, (Paint.__proto__ || Object.getPrototypeOf(Paint)).apply(this, arguments));
+    }
+
+    _createClass(Paint, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                null,
+                '444'
+            );
+        }
+    }, {
+        key: '__reactstandin__regenerateByEval',
+        // @ts-ignore
+        value: function __reactstandin__regenerateByEval(key, code) {
+            // @ts-ignore
+            this[key] = eval(code);
+        }
+    }]);
+
+    return Paint;
+}(_react.Component);
+
+var BigPaintHOC = function BigPaintHOC(Components) {
+    return function () {
+        var WhatEver = function (_Component2) {
+            _inherits(WhatEver, _Component2);
+
+            function WhatEver() {
+                _classCallCheck(this, WhatEver);
+
+                return _possibleConstructorReturn(this, (WhatEver.__proto__ || Object.getPrototypeOf(WhatEver)).apply(this, arguments));
+            }
+
+            _createClass(WhatEver, [{
+                key: 'render',
+                value: function render() {
+                    var _props = this.props,
+                        textRef = _props.textRef,
+                        props = _objectWithoutProperties(_props, ['textRef']);
+
+                    return _react2.default.createElement(Components, { ref: textRef });
+                }
+            }, {
+                key: '__reactstandin__regenerateByEval',
+                // @ts-ignore
+                value: function __reactstandin__regenerateByEval(key, code) {
+                    // @ts-ignore
+                    this[key] = eval(code);
+                }
+            }]);
+
+            return WhatEver;
+        }(_react.Component);
+
+        var paintRef = _react2.default.forwardRef(function (props, ref) {
+            return _react2.default.createElement(WhatEver, { textRef: ref });
+        });
+
+        return paintRef;
+    }();
+};
+
+var BigPaint = BigPaintHOC(Paint);
+
+var _default = BigPaint;
+exports.default = _default;
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").default;
+
+    var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(Paint, 'Paint', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/BigPaint.js');
+    reactHotLoader.register(BigPaintHOC, 'BigPaintHOC', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/BigPaint.js');
+    reactHotLoader.register(BigPaint, 'BigPaint', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/BigPaint.js');
+    reactHotLoader.register(_default, 'default', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/BigPaint.js');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/_webpack@4.23.1@webpack/buildin/module.js */ "./node_modules/_webpack@4.23.1@webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/containers/ForwardingRefs/FancyButton.js":
+/*!******************************************************!*\
+  !*** ./src/containers/ForwardingRefs/FancyButton.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/_react@16.6.0@react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+    var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+var FancyButton = _react2.default.forwardRef(function (props, ref) {
+    return _react2.default.createElement(
+        'button',
+        { ref: ref, className: 'FancyButton' },
+        props.children
+    );
+});
+
+var _default = FancyButton;
+exports.default = _default;
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").default;
+
+    var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(FancyButton, 'FancyButton', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/FancyButton.js');
+    reactHotLoader.register(_default, 'default', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/FancyButton.js');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/_webpack@4.23.1@webpack/buildin/module.js */ "./node_modules/_webpack@4.23.1@webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/containers/ForwardingRefs/Paint.js":
+/*!************************************************!*\
+  !*** ./src/containers/ForwardingRefs/Paint.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/_react@16.6.0@react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+    var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Redpaint = function (_Component) {
+    _inherits(Redpaint, _Component);
+
+    function Redpaint() {
+        _classCallCheck(this, Redpaint);
+
+        return _possibleConstructorReturn(this, (Redpaint.__proto__ || Object.getPrototypeOf(Redpaint)).apply(this, arguments));
+    }
+
+    _createClass(Redpaint, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                null,
+                '123'
+            );
+        }
+    }, {
+        key: '__reactstandin__regenerateByEval',
+        // @ts-ignore
+        value: function __reactstandin__regenerateByEval(key, code) {
+            // @ts-ignore
+            this[key] = eval(code);
+        }
+    }]);
+
+    return Redpaint;
+}(_react.Component);
+
+var PaintHOC = function PaintHOC(Component) {
+    return _react2.default.forwardRef(function (props, ref) {
+        return _react2.default.createElement(
+            Component,
+            { ref: ref },
+            props.children
+        );
+    });
+};
+
+var Paint = PaintHOC(Redpaint);
+
+var _default = Paint;
+exports.default = _default;
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").default;
+
+    var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(Redpaint, 'Redpaint', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/Paint.js');
+    reactHotLoader.register(PaintHOC, 'PaintHOC', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/Paint.js');
+    reactHotLoader.register(Paint, 'Paint', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/Paint.js');
+    reactHotLoader.register(_default, 'default', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/Paint.js');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/_webpack@4.23.1@webpack/buildin/module.js */ "./node_modules/_webpack@4.23.1@webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/containers/ForwardingRefs/index.js":
+/*!************************************************!*\
+  !*** ./src/containers/ForwardingRefs/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/_react@16.6.0@react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/_react-dom@16.6.0@react-dom/index.js");
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _FancyButton = __webpack_require__(/*! ./FancyButton */ "./src/containers/ForwardingRefs/FancyButton.js");
+
+var _FancyButton2 = _interopRequireDefault(_FancyButton);
+
+var _BigPaint = __webpack_require__(/*! ./BigPaint */ "./src/containers/ForwardingRefs/BigPaint.js");
+
+var _BigPaint2 = _interopRequireDefault(_BigPaint);
+
+var _Paint = __webpack_require__(/*! ./Paint */ "./src/containers/ForwardingRefs/Paint.js");
+
+var _Paint2 = _interopRequireDefault(_Paint);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+    var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ForwardingRefs = function (_Component) {
+    _inherits(ForwardingRefs, _Component);
+
+    function ForwardingRefs() {
+        var _ref;
+
+        var _temp, _this, _ret;
+
+        _classCallCheck(this, ForwardingRefs);
+
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
+
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ForwardingRefs.__proto__ || Object.getPrototypeOf(ForwardingRefs)).call.apply(_ref, [this].concat(args))), _this), Object.defineProperty(_this, 'btnRef', {
+            enumerable: true,
+            writable: true,
+            value: _react2.default.createRef()
+        }), Object.defineProperty(_this, 'paintRef', {
+            enumerable: true,
+            writable: true,
+            value: _react2.default.createRef()
+        }), Object.defineProperty(_this, 'bigPaintRef', {
+            enumerable: true,
+            writable: true,
+            value: _react2.default.createRef()
+        }), _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    _createClass(ForwardingRefs, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            console.log(this.btnRef.current);
+            console.log(this.paintRef.current);
+            console.log(_reactDom2.default.findDOMNode(this.bigPaintRef.current));
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                _react.Fragment,
+                null,
+                _react2.default.createElement(
+                    _FancyButton2.default,
+                    { ref: this.btnRef },
+                    'Click Me'
+                ),
+                _react2.default.createElement(_Paint2.default, { ref: this.paintRef }),
+                _react2.default.createElement(_BigPaint2.default, { ref: this.bigPaintRef })
+            );
+        }
+    }, {
+        key: '__reactstandin__regenerateByEval',
+        // @ts-ignore
+        value: function __reactstandin__regenerateByEval(key, code) {
+            // @ts-ignore
+            this[key] = eval(code);
+        }
+    }]);
+
+    return ForwardingRefs;
+}(_react.Component);
+
+var _default = ForwardingRefs;
+exports.default = _default;
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").default;
+
+    var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/_react-hot-loader@4.3.11@react-hot-loader/index.js").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(ForwardingRefs, 'ForwardingRefs', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/index.js');
+    reactHotLoader.register(_default, 'default', '/Users/slimhong/Desktop/My Works/react-practice/src/containers/ForwardingRefs/index.js');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/_webpack@4.23.1@webpack/buildin/module.js */ "./node_modules/_webpack@4.23.1@webpack/buildin/module.js")(module)))
+
+/***/ }),
+
 /***/ "./src/containers/Home/index.js":
 /*!**************************************!*\
   !*** ./src/containers/Home/index.js ***!
@@ -32026,7 +32557,7 @@ var Portals = function (_Component2) {
 
             return _react2.default.createElement(
                 'div',
-                { onClick: this.handleClick },
+                { className: 'modal-box', onClick: this.handleClick },
                 _react2.default.createElement(
                     'p',
                     null,
@@ -32312,30 +32843,58 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Refs = function (_Component) {
     _inherits(Refs, _Component);
 
-    function Refs(props) {
+    function Refs() {
+        var _ref;
+
+        var _temp, _this, _ret;
+
         _classCallCheck(this, Refs);
 
-        var _this = _possibleConstructorReturn(this, (Refs.__proto__ || Object.getPrototypeOf(Refs)).call(this));
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
 
-        _this.demoRefs = _react2.default.createRef();
-        _this.fndemoRefs = _react2.default.createRef();
-        return _this;
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Refs.__proto__ || Object.getPrototypeOf(Refs)).call.apply(_ref, [this].concat(args))), _this), Object.defineProperty(_this, 'demoRefs', {
+            enumerable: true,
+            writable: true,
+            value: _react2.default.createRef()
+        }), Object.defineProperty(_this, 'fndemoRefs', {
+            enumerable: true,
+            writable: true,
+            value: _react2.default.createRef()
+        }), Object.defineProperty(_this, 'focusTextInput', {
+            enumerable: true,
+            writable: true,
+            value: function value() {
+                if (_this.textInput) {
+                    _this.textInput.focus();
+                }
+            }
+        }), _temp), _possibleConstructorReturn(_this, _ret);
     }
 
     _createClass(Refs, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
-            console.log(_reactDom2.default.findDOMNode(this.demoRefs.current));
-            console.log(_reactDom2.default.findDOMNode(this.fndemoRefs.current));
+            console.log(this.demoRefs.current);
+            console.log(this.fndemoRefs.current);
+
+            this.textInput.focus();
         }
     }, {
         key: 'render',
         value: function render() {
+            var _this2 = this;
+
             return _react2.default.createElement(
                 _react.Fragment,
                 null,
                 _react2.default.createElement(_Demo2.default, { ref: this.demoRefs }),
-                _react2.default.createElement(_Fndemo2.default, { ref: this.fndemoRefs })
+                _react2.default.createElement(_Fndemo2.default, { ref: this.fndemoRefs }),
+                _react2.default.createElement('input', { type: 'text', ref: function ref(el) {
+                        return _this2.textInput = el;
+                    } }),
+                _react2.default.createElement('input', { type: 'button', onClick: this.focusTextInput })
             );
         }
     }, {
@@ -32395,6 +32954,14 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/_react-router-dom@4.3.1@react-router-dom/es/index.js");
 
+var _Class = __webpack_require__(/*! ../containers/Decorator/Class */ "./src/containers/Decorator/Class/index.js");
+
+var _Class2 = _interopRequireDefault(_Class);
+
+var _ForwardingRefs = __webpack_require__(/*! ../containers/ForwardingRefs */ "./src/containers/ForwardingRefs/index.js");
+
+var _ForwardingRefs2 = _interopRequireDefault(_ForwardingRefs);
+
 var _NotFound = __webpack_require__(/*! ../containers/NotFound */ "./src/containers/NotFound/index.js");
 
 var _NotFound2 = _interopRequireDefault(_NotFound);
@@ -32425,6 +32992,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+//TODO: 按需加载功能
+
+
 var AppRouter = function (_Component) {
     _inherits(AppRouter, _Component);
 
@@ -32440,10 +33010,12 @@ var AppRouter = function (_Component) {
             return _react2.default.createElement(
                 _reactRouterDom.Switch,
                 null,
-                _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/forwardrefs', component: _ForwardingRefs2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/home', component: _Home2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/portals', component: _Portals2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/refs', component: _Refs2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/decorator/class', component: _Class2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '*', component: _NotFound2.default })
             );
         }

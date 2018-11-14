@@ -6,8 +6,8 @@ import webpackDevMiddleware from 'webpack-dev-middleware'
 import webpackHotMiddleware from 'webpack-hot-middleware'
 const opn = require('opn')
 
-const HOST = 'slimhong.react.com'
-const PORT = process.env.PORT || 8080
+const HOST = '127.0.0.1'
+const PORT = process.env.PORT || 7713
 const app = express(),
     DIST_DIR = __dirname,
     HTML_FILE = path.join(DIST_DIR, './index.html'),

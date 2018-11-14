@@ -12,7 +12,6 @@ const BigPaintHOC = Components => (() => {
     class WhatEver extends Component {
         render() {
             const { textRef, ...props } = this.props
-            console.log(222)
             return (
                 <Components ref={textRef}></Components>
             )

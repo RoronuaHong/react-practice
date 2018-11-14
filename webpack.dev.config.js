@@ -12,17 +12,18 @@ module.exports = merge(common, {
     },
     mode: 'development',
     module: {
-        rules: [{
-            enforce: 'pre',
-            test: /\.js$/,
-            exclude: /node_modules/,
-            loader: 'eslint-loader',
-            options: {
-                emitWarning: true,
-                failOnError: false,
-                failOnWarning: false
-            }
-        },
+        rules: [
+        //     {
+        //     enforce: 'pre',
+        //     test: /\.js$/,
+        //     exclude: /node_modules/,
+        //     loader: 'eslint-loader',
+        //     options: {
+        //         emitWarning: true,
+        //         failOnError: false,
+        //         failOnWarning: false
+        //     }
+        // },
         {
             test: /\.html$/,
             use: [
@@ -42,7 +43,7 @@ module.exports = merge(common, {
         }]
     },
     devServer: {
-        host: 'slimhong.react.com',
+        host: '0.0.0.0',
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
