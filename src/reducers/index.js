@@ -1,10 +1,13 @@
-import state from '../states/connect'
+import connectState from '../states/connect'
 import * as ConnectActionType from '../constants/connect'
 
-const connectReducer = (state, action) => {
+const connectReducer = (state = connectState, action) => {
     switch(action.type) {
         case ConnectActionType.ADD_NUM:
-            return state + 1
+            return {
+                ...state,
+                num: state.num + action.num
+            }
         default:
             return state
     }

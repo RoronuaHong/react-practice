@@ -3,17 +3,16 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
 import * as Action from '../../../actions/connect'
-import initialState from '../../../states/connect'
 
-class Connect extends Component {
+@connect(mapStateToProps, mapDispatchToProps)
+export default class Connect extends Component {
     render() {
         const { num, addNum } = this.props
+
         return(
             <div>
                 连接redux
-                <button
-                    onClick={addNum}
-                >点击</button>
+                <button onClick={e => addNum(1)}>点击</button>
                 <span>{ num }</span>
             </div>
         )
@@ -22,7 +21,7 @@ class Connect extends Component {
 
 
 const mapStateToProps = state => {
-    const { num } = initialState
+    const { num } = state
     
     return {
         num
@@ -32,5 +31,3 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => ({
     addNum: bindActionCreators(Action.addNum, dispatch)
 })
-
-export default connect(mapStateToProps, mapDispatchToProps)(Connect)
