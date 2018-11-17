@@ -8,16 +8,16 @@ import rootReducer from '../reducers'
 // const sagaMiddleware = createSagaMiddleware()
 // const middlewares = [sagaMiddleware]
 
-let store
+let stores
 
-if (process.env.NODE_ENV !== 'production' && window.__REDUX_DEVTOOLS_EXTENSION__) {
+if(process.env.NODE_ENV !== 'production' && window.__REDUX_DEVTOOLS_EXTENSION__) {
     const openReduxDevtool = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-    store = createStore(
+    stores = createStore(
         rootReducer,
         // compose(applyMiddleware(...middlewares), openReduxDevtool)
     )
 } else {
-    store = createStore(
+    stores = createStore(
         rootReducer,
         // applyMiddleware(...middlewares)
     )
@@ -27,7 +27,7 @@ class App extends Component {
     render() {
         return(
             <BrowserRouter>
-                <Provider store={store}>
+                <Provider store={stores}>
                     <AppRouter />
                 </Provider>
             </BrowserRouter>

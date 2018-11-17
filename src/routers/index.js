@@ -15,9 +15,9 @@ class AppRouter extends Component {
     render() {
         return (
             <Switch>
-                <Route path='/forwardrefs' component={ForwardingRefs} />
                 <Route exact path='/home' component={Home} />
                 <Route exact path='/' component={Home} />
+                <Route path='/forwardrefs' component={ForwardingRefs} />
                 <Route path='/portals' component={Portals} />
                 <Route path='/refs' component={Refs} />
                 <Route path='/decorator' component={DecoratorRouters} />

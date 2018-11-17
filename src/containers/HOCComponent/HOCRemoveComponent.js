@@ -1,21 +1,45 @@
 import React, { Component } from 'react'
 
-const HOCRemoveProps = (WrappedComponent) => {
-    return class WrappingComponent extends Component {
+const HOCRemoveComponent = WrappedComponent => 
+    class extends Component {
+        state = { aaa: 2 }
+
         render() {
-            return (
-                <WrappedComponent />
-            )
+            const { news, pub, ...newProps } = this.props
+
+            return <WrappedComponent { ...this.state } { ...newProps } />
         }
     }
-}
 
-class HOCRemoveComponent extends Component {
+class RemoveComponent extends Component {
     render() {
+        console.log(this.props.news)
+        console.log(this.props.pub)
+        console.log(this.props.arr)
+
         return (
-            <div>12345</div>
+            <div>删除props</div>
         )
     }
 }
 
-export default HOCRemoveComponent
+class ReComponent extends Component {
+    render() {
+        const NewComponent = HOCRemoveComponent(RemoveComponent)
+        const pub = {
+            a: 1,
+            b: 2,
+            c: 3
+        }
+        const arr = [1, 2, 3, 4, 5]
+
+        return (
+            <NewComponent 
+                news={'news'}
+                pub={pub}
+                arr={arr} />
+        )
+    }
+}
+
+export default ReComponent
