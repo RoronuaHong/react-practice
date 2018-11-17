@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 
-import * as Action from '../../../actions/connect'
-
 import connects from './connects'
+
 @connects
 export default class Connect extends Component {
     render() {
