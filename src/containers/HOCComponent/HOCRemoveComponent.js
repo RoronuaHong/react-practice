@@ -11,21 +11,21 @@ const HOCRemoveComponent = WrappedComponent =>
         }
     }
 
+@HOCRemoveComponent
 class RemoveComponent extends Component {
-    render() {
-        console.log(this.props.news)
-        console.log(this.props.pub)
-        console.log(this.props.arr)
+  render() {
+    console.log(this.props.news);
+    console.log(this.props.pub);
+    console.log(this.props.arr);
 
-        return (
-            <div>删除props</div>
-        )
-    }
+    return <div>删除props</div>;
+  }
 }
 
 class ReComponent extends Component {
     render() {
         const NewComponent = HOCRemoveComponent(RemoveComponent)
+
         const pub = {
             a: 1,
             b: 2,
@@ -33,12 +33,7 @@ class ReComponent extends Component {
         }
         const arr = [1, 2, 3, 4, 5]
 
-        return (
-            <NewComponent 
-                news={'news'}
-                pub={pub}
-                arr={arr} />
-        )
+        return <RemoveComponent news={"news"} pub={pub} arr={arr} />;
     }
 }
 

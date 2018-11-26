@@ -2,24 +2,20 @@ import React, { Component } from 'react'
 import { Provider } from 'react-redux'
 import AppRouter from '../routers'
 import { BrowserRouter } from 'react-router-dom'
-import { createStore, applyMiddleware, compose } from 'redux'
+import { createStore, applyMiddleware, compose } from '_redux@4.0.1@redux'
 
 import rootReducer from '../reducers'
-// const sagaMiddleware = createSagaMiddleware()
-// const middlewares = [sagaMiddleware]
 
 let stores
 
 if(process.env.NODE_ENV !== 'production' && window.__REDUX_DEVTOOLS_EXTENSION__) {
     const openReduxDevtool = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     stores = createStore(
-        rootReducer,
-        // compose(applyMiddleware(...middlewares), openReduxDevtool)
+        rootReducer
     )
 } else {
     stores = createStore(
-        rootReducer,
-        // applyMiddleware(...middlewares)
+        rootReducer
     )
 }
 
