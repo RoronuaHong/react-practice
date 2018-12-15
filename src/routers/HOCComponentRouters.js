@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react';
-import { Route, Redirect, Switch } from 'react-router-dom';
+import React, { Fragment } from 'react' 
+import { Route, Redirect, Switch } from 'react-router-dom' 
 
-import HOCComponent from '../containers/HOCComponent';
-import HOCAddComponent from '../containers/HOCComponent/HOCAddComponent';
-import HOCRemoveComponent from '../containers/HOCComponent/HOCRemoveComponent';
-import HOCExtendComponent from '../containers/HOCComponent/HOCExtendComponent';
-import HOCExtractComponent from '../containers/HOCComponent/HOCExtractComponent';
-import HOCWrappingComponent from '../containers/HOCComponent/HOCWrappingComponent';
-import HOCPropsComponent from '../containers/HOCComponent/HOCPropsComponent';
+import HOCComponent from '../containers/HOCComponent' 
+import HOCAddComponent from '../containers/HOCComponent/HOCAddComponent' 
+import HOCRemoveComponent from '../containers/HOCComponent/HOCRemoveComponent' 
+import HOCExtendComponent from '../containers/HOCComponent/HOCExtendComponent' 
+import HOCExtractComponent from '../containers/HOCComponent/HOCExtractComponent' 
+import HOCWrappingComponent from '../containers/HOCComponent/HOCWrappingComponent' 
+import HOCPropsComponent from '../containers/HOCComponent/HOCPropsComponent' 
 
 const HOCComponentRouters = ({ match }) => 
     <Switch>
@@ -22,4 +22,4 @@ const HOCComponentRouters = ({ match }) =>
     </Switch>
 
 
-export default HOCComponentRouters;
+export default HOCComponentRouters 

@@ -19,7 +19,7 @@ export default class ComponentUpdate extends PureComponent {
             },
             cc: [5, 6]
         },
-        gg: new Set([1, 2, 3, 4, 5]),
+        gg: new Set([1, 2, 3, 4, 5]), 
         tt: new Map([['a', 1], ['b', 2]])
     }
     handleA = e => {

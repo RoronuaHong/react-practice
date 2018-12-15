@@ -10,6 +10,7 @@ import Refs from '../containers/Refs'
 import States from '../containers/States'
 import ComponentUpdate from '../containers/ComponentUpdate'
 
+import CompoundRouters from './CompoundRouters'
 import DecoratorRouters from './DecoratorRouters'
 import HOCComponentRouters from './HOCComponentRouters'
 
@@ -25,6 +26,7 @@ class AppRouter extends Component {
             <Route path='/componentupdate' component={ComponentUpdate} />
             <Route path='/decorator' component={DecoratorRouters} />
             <Route path='/hoccomponent' component={HOCComponentRouters} />
+            <Route path='/compound' component={CompoundRouters} />
             <Redirect from='*' to='/home' />
           </Switch>
     }

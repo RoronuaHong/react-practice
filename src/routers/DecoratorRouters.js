@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Route, Redirect, Switch } from 'react-router-dom';
+import { Route, Redirect, Switch } from 'react-router-dom'
 
 import Connect from '../containers/Decorator/Connect'
 import Functions from '../containers/Decorator/Functions'
